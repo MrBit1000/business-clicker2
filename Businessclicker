@@ -43,6 +43,12 @@ Resources
 				class:noBackground
 				show earned
 				
+		*Bitcoin	name:Bitcoin
+				desc:A new form of Money
+				class:noBackground
+				hidden when 0
+				icon:https://i.imgur.com/3zxXNkV.png
+				
 Buildings
 		*Worker
 				name:Worker
@@ -77,6 +83,13 @@ Buildings
 				on tick:yield 120 Dollars
 				cost:12000 Dollars
 				icon:https://i.imgur.com/PMr3VOG.png
+				
+		*Bitcoin Server
+				name:Bitcoin Server
+				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 0.01 Bitcoin per second.
+				on tick:yield 0.01 Bitcoin
+				cost:32000 Dollars
+				icon:https://i.imgur.com/dSv4HlK.png
 				
 				
 Upgrades
