@@ -1,0 +1,55 @@
+Let's make a game!
+		name:Business Clicker
+		desc:Click the Dollar Bill to earn money and rise to the top with your ventures
+		by:MrBit
+		Version:1
+Settings
+		Building cost increase:115%
+		Building cost refund:75%
+		spritesheet:Images, 48 by 48, https://i.imgur.com/GSwZpMx.png
+CSS
+	#game
+	{
+		background:cornflowerblue;
+		font-family:"Times New Roman",Times,serif;
+		color:black;
+	}
+	#game.filtersOn .thing.cantAfford.notOwned
+	}
+	filter:blur(3px);
+	}
+ 
+Buttons
+		*DollarButton
+		name:Dollars
+		on click:yield 1 Dollars
+		class:bigButton
+		show clicks
+		icon:Images[0,0]
+		no text
+ 
+Resources
+		*Dollars
+				name:Dollars
+				desc:A Amazing Currency
+ 
+Buildings
+		*Worker
+				name:Worker
+				desc:A Underpaid Worker working for free at your Venture
+				on tick:yield 0.5 Dollars
+				cost:15 Dollars
+				icon:Images[1,0]
+		*Office
+				name:Office
+				desc:A place for your underpaid workers to work at
+				on tick:yield 5 Dollars
+				cost:190 Dollars
+				icon:Images[0,1]
+ 
+		*Advertisement
+				name:Advertisement
+				desc:Advertisements get more people buying your product
+				on tick:yield 20 Dollars
+				cost:1100 Dollars
+				icon:Images[1,1]
