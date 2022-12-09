@@ -4,6 +4,7 @@ Let's make a game!
 		by:MrBit
 		Version:1
 Settings
+		background:https://i.imgur.com/JDQiV3i.png
 		Building cost increase:115%
 		Building cost refund:75%
 		spritesheet:Images, 48 by 48, https://i.imgur.com/GSwZpMx.png
