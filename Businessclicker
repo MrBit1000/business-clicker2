@@ -58,5 +58,15 @@ Buildings
 Achievements
 		*moneyAchiev1
 				name:Time to buy chocky milk!
-				desc:Have <b>1</b> Dollar.
+				desc:Make <b>1</b> Dollar.
 				req:1 Dollars
+		
+		*moneyAchiev2
+				name:Yay Pocket Money
+				desc:Make <b>100</b> Dollars.
+				req:100 Dollars
+				
+		*moneyAchiev3
+				name:Time to get serious!
+				desc:Made <b>1000</b> Dollars.
+				req:1000 Dollars
