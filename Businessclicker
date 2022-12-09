@@ -39,6 +39,8 @@ Resources
 		*Dollars
 				name:Dollars
 				desc:A Amazing Currency
+				class:noBackground
+				show earned
  
 Buildings
 		*Worker
