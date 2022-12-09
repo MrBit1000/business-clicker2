@@ -42,6 +42,29 @@ Resources
 				desc:A Amazing Currency
 				class:noBackground
 				show earned
+				
+Shinies
+		*luckyDollar
+				on click:log Woop
+		movement:onRight moveLeft fade bounce:0.05
+		frequency:60
+		frequency variation:30
+		icon:https://i.imgur.com/xl125l2.png
+		class:bigButton
+		on click:
+			$boost=1
+			if (have clover) $boost=4
+			if (chance(25%))
+				//get at least 7, or between 1 and 3 minutes of our Dollars production
+				$amount=max(7,random(Dollars:ps*60*1,Dollars:ps*60*3))*$boost
+				toast The lucky Dollar grants you<//><b>[$amount] Dollars</b>.
+				yield $amount bunnies
+			else
+				$amount=1*$boost
+				toast The lucky Dollar grants you<//><b>[$amount] golden dollar[s?$amount]</b>!
+				yield $amount goldenDollar
+			end
+		end
  
 Buildings
 		*Worker
