@@ -62,7 +62,7 @@ Buildings
 				desc:Advertisements get more people buying your product
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
-				icon:Images[1,1]
+				icon:https://i.imgur.com/gyCameG.png
 				
 		*Campaign
 				name:Campaign
