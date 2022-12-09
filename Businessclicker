@@ -57,7 +57,7 @@ Shinies
 				//get at least 7, or between 1 and 3 minutes of our Dollars production
 				$amount=max(7,random(Dollars:ps*60*1,Dollars:ps*60*3))*$boost
 				toast The lucky Dollar grants you<//><b>[$amount] Dollars</b>.
-				yield $amount bunnies
+				yield $amount Dollars
 			else
 				$amount=1*$boost
 				toast The lucky Dollar grants you<//><b>[$amount] golden dollar[s?$amount]</b>!
