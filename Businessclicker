@@ -60,6 +60,13 @@ Buildings
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
 				icon:Images[1,1]
+				
+		*Campaign
+				name:Campaign
+				desc:Campaign to get more people on your team and and do advertising
+				on tick:yield 50 Dollars
+				cost:5600 Dollars
+				icon:https://i.imgur.com/HGq50wl.png
 Achievements
 		*moneyAchiev1
 				name:Time to buy chocky milk!
