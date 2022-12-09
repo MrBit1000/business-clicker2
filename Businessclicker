@@ -72,3 +72,7 @@ Achievements
 				name:Time to get serious!
 				desc:Made <b>1000</b> Dollars.
 				req:1000 Dollars
+		*moneyAchiev4
+				name:You'r not getting paid
+				desc:Made <b>100,000</b> Dollars from your workers
+				req:130000 Dollars
