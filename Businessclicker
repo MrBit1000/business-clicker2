@@ -92,14 +92,14 @@ Upgrades
 				name:SuperAds
 				desc:Boosts your engagemnet to viewers and you earn more per click.<//><b>Effect:</b><.>+5 Dollars/click
 				icon:https://i.imgur.com/MfQ4Hjf.png
-				cost:600
+				cost:600 Dollars
 				passive:increase Dollars yield of DollarButton by 5
 				req:400 Dollars:earned
 		*TeamWork
 				name:Teamwork
 				desc:Workers work twice as hard <//><b>Effect:</b><.>Money production +5%
 				icon:https://i.imgur.com/NCkIQQz.png
-				cost:200
+				cost:200 Dollars
 				passive:multiply yield of Dollars by 1.05
 				req:100
 				
