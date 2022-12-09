@@ -124,3 +124,8 @@ Achievements
 				desc:You've clicked this Dollar <b>1000</b> times
 				req:1000 DollarButton clicks
 				icon:https://i.imgur.com/DZAlwUX.png
+		*clickAchiev2
+				name:clicker begineer
+				desc:You've clicked this Dollar <b>100000</b> times.
+				req:100000 DollarButton clicks
+				icon:https://i.imgur.com/tjLXlqi.png
