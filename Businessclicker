@@ -79,7 +79,7 @@ Buildings
 				icon:https://i.imgur.com/PMr3VOG.png
 				
 		*BitcoinServer
-				name:Bitcoin Server
+				name:BitcoinServer
 				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 1000 Dollars per second.
 				on tick:yield 1000 Dollars
 				cost:50000 Dollars
