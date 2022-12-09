@@ -43,12 +43,6 @@ Resources
 				class:noBackground
 				show earned
 				
-		*Bitcoins	name:Bitcoins
-				desc:A new form of Money
-				class:noBackground
-				hidden when 0
-				icon:https://i.imgur.com/3zxXNkV.png
-				
 Buildings
 		*Worker
 				name:Worker
@@ -86,9 +80,9 @@ Buildings
 				
 		*Bitcoin Server
 				name:Bitcoin Server
-				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 0.01 Bitcoin per second.
-				on tick:yield 0.01 Bitcoins
-				cost:32000 Dollars
+				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 1000 Dollars per second.
+				on tick:yield 1000 Dollars
+				cost:50000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
 				
 				
@@ -123,6 +117,14 @@ Upgrades
 				cost:700 Dollars
 				passive:multiply yield of Dollars by 1.07
 				req:500
+				
+		*BitcoinServer
+				name:Digital Mastermind
+				desc:Make your Bitcoin Mine twice as efficent <//><b>Effect:</b><.>Money production +10%
+				icon:https://i.imgur.com/7TSJpzx.png
+				cost:20000 Dollars
+				passive:multiply yield of Bitcoin Server by 1.10
+				req:(Bitcoin Server>=5
 				
 				
 Achievements
