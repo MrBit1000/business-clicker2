@@ -55,7 +55,7 @@ Buildings
 				desc:A place for your underpaid workers to work at
 				on tick:yield 5 Dollars
 				cost:190 Dollars
-				icon:Images[0,1]
+				icon:https://i.imgur.com/ffCWkxh.png
  
 		*Advertisement
 				name:Advertisement
