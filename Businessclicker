@@ -165,3 +165,8 @@ Achievements
 				desc:You've clicked this Dollar <b>100000</b> times.
 				req:100000 DollarButton clicks
 				icon:https://i.imgur.com/tjLXlqi.png
+				
+		*moneyAchiev7
+				name:Centimillionaire
+				desc:You've achived greatness but can you do better you made <b>100,000,000</b> Dollars
+				req:100000000 Dollars
