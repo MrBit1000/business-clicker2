@@ -60,6 +60,7 @@ Achievements
 				name:Time to buy chocky milk!
 				desc:Make <b>1</b> Dollar.
 				req:1 Dollars
+				icon:https://i.imgur.com/fENzAec.png
 		
 		*moneyAchiev2
 				name:Yay Pocket Money
