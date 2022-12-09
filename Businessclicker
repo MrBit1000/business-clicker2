@@ -176,4 +176,4 @@ Achievements
 		*buildingAchiev1
 				name:Bitcoin Farm
 				desc:You've made a bitcoin farm
-				req:(BitcoinServer>=5
+				req:4000000 Dollars
