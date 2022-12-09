@@ -46,27 +46,27 @@ Resources
 Buildings
 		*Worker
 				name:Worker
-				desc:A Underpaid Worker working for free at your Venture
+				desc:A Underpaid Worker working for free at your Venture <//><b>Effect:</b><.>Produces 0.5 Dollar per second.
 				on tick:yield 0.5 Dollars
 				cost:15 Dollars
 				icon:https://i.imgur.com/zCHNqZx.png
 		*Office
 				name:Office
-				desc:A place for your underpaid workers to work at
+				desc:A place for your underpaid workers to work at <//><b>Effect:</b><.>Produces 5 Dollar per second.
 				on tick:yield 5 Dollars
 				cost:190 Dollars
 				icon:https://i.imgur.com/ffCWkxh.png
  
 		*Advertisement
 				name:Advertisement
-				desc:Advertisements get more people buying your product
+				desc:Advertisements get more people buying your product <//><b>Effect:</b><.>Produces 20 Dollar per second.
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
 				icon:https://i.imgur.com/gyCameG.png
 				
 		*Campaign
 				name:Campaign
-				desc:Campaign to get more people on your team and and do advertising
+				desc:Campaign to get more people on your team and and do advertising <//><b>Effect:</b><.>Produces 50 Dollar per second.
 				on tick:yield 50 Dollars
 				cost:5600 Dollars
 				icon:https://i.imgur.com/TwtJDKA.png
