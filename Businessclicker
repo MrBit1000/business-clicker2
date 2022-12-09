@@ -70,6 +70,18 @@ Buildings
 				on tick:yield 50 Dollars
 				cost:5600 Dollars
 				icon:https://i.imgur.com/TwtJDKA.png
+				
+				
+Upgrades
+
+		*Sales
+				name:Sales
+				desc:Boost up your sales and earn more per click.<//><b>Effect:</b><.>+1 Dollars/click
+				icon:https://i.imgur.com/V5w0sYz.png
+				cost:150 Dollars
+				passive:increase Dollars yield of DollarButton by 1
+				req:100 Dollars:earned
+				
 Achievements
 		*moneyAchiev1
 				name:Time to buy chocky milk!
@@ -95,3 +107,8 @@ Achievements
 				name:MILLIONAIRE
 				desc:You've made <b>1,000,000</b> in this hard world hope your ready for the next milestone.
 				req:1000000 Dollars
+				
+		*moneyAchiev6
+				name:Multimillionaire
+				desc:You've made <b>12,000,000</b> Dollars making you the top 1% in your country.
+				req:12000000 Dollars
