@@ -78,7 +78,7 @@ Buildings
 				cost:12000 Dollars
 				icon:https://i.imgur.com/PMr3VOG.png
 				
-		*Bitcoin Server
+		*BitcoinServer
 				name:Bitcoin Server
 				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 1000 Dollars per second.
 				on tick:yield 1000 Dollars
@@ -118,7 +118,7 @@ Upgrades
 				passive:multiply yield of Dollars by 1.07
 				req:500
 				
-		*BitcoinServer
+		*DigitalMaster
 				name:Digital Mastermind
 				desc:Make your Bitcoin Mine twice as efficent <//><b>Effect:</b><.>Money production +10%
 				icon:https://i.imgur.com/7TSJpzx.png
