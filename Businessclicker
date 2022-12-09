@@ -26,6 +26,10 @@ Buttons
 		name:Dollars
 		on click:yield 1 Dollars
 		class:bigButton
+		on click:anim icon wobble
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
 		show clicks
 		class:bigButton hasFlares
 		icon:https://i.imgur.com/sLoo2Go.png
