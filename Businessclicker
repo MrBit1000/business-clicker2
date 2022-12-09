@@ -43,7 +43,7 @@ Resources
 				class:noBackground
 				show earned
 				
-		*Bitcoin	name:Bitcoin
+		*Bitcoins	name:Bitcoins
 				desc:A new form of Money
 				class:noBackground
 				hidden when 0
@@ -87,7 +87,7 @@ Buildings
 		*Bitcoin Server
 				name:Bitcoin Server
 				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 0.01 Bitcoin per second.
-				on tick:yield 0.01 Bitcoin
+				on tick:yield 0.01 Bitcoins
 				cost:32000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
 				
