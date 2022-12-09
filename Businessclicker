@@ -95,6 +95,14 @@ Upgrades
 				cost:600
 				passive:increase Dollars yield of DollarButton by 5
 				req:400 Dollars:earned
+		*TeamWork
+				name:Teamwork
+				desc:Workers work twice as hard <//><b>Effect:</b><.>Money production +5%
+				icon:https://i.imgur.com/NCkIQQz.png
+				cost:200
+				passive:multiply yield of Dollars by 1.05
+				req:100
+				
 				
 Achievements
 		*moneyAchiev1
