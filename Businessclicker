@@ -53,10 +53,3 @@ Buildings
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
 				icon:Images[1,1]
-	
-		*Babies
-				name:baby
-				desc:Babies give you milk
-				on tick:yield 1 Dollars
-				cost:1 Dollars
-				icon:
