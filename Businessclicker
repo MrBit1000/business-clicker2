@@ -16,7 +16,7 @@ CSS
 	}
 	#game.filtersOn .thing.cantAfford.notOwned
 	}
-	filter:blur(24px);
+	filter:blur(4px);
 	}
  
 Buttons
