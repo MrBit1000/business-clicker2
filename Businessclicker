@@ -123,8 +123,8 @@ Upgrades
 				desc:Make your Bitcoin Mine twice as efficent <//><b>Effect:</b><.>Money production +10%
 				icon:https://i.imgur.com/7TSJpzx.png
 				cost:20000 Dollars
-				passive:multiply yield of Bitcoin Server by 1.10
-				req:(Bitcoin Server>=5
+				passive:multiply yield of BitcoinServer by 1.10
+				req:(BitcoinServer>=5
 				
 				
 Achievements
@@ -176,4 +176,4 @@ Achievements
 		*buildingAchiev1
 				name:Bitcoin Farm
 				desc:You've made a bitcoin farm
-				req:(Bitcoin Server>=5
+				req:(BitcoinServer>=5
