@@ -103,6 +103,14 @@ Upgrades
 				passive:multiply yield of Dollars by 1.05
 				req:100
 				
+		*Expansion
+				name:Expansion
+				desc:Make your Office twice as big <//><b>Effect:</b><.>Money production +7%
+				icon:https://i.imgur.com/fEgBbBe.png
+				cost:700
+				passive:multiply yield of Dollars by 1.07
+				req:500
+				
 				
 Achievements
 		*moneyAchiev1
