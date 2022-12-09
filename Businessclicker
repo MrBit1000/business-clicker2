@@ -172,3 +172,8 @@ Achievements
 				name:Centimillionaire
 				desc:You've achived greatness but can you do better you made <b>100,000,000</b> Dollars
 				req:100000000 Dollars
+				
+		*buildingAchiev1
+				name:Bitcoin Farm
+				desc:You've made a bitcoin farm
+				req:(Bitcoin Server>=5
