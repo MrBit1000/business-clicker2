@@ -25,7 +25,7 @@ Buttons
 		on click:yield 1 Dollars
 		class:bigButton
 		show clicks
-		icon:https://i.imgur.com/ObTLamD.png
+		icon:https://i.imgur.com/RPb4lAC.png
 		no text
  
 Resources
