@@ -73,7 +73,7 @@ Buildings
 				
 		*Factory
 				name:Factory
-				desc:Put your worker into hot factories to make more money <//><b>Effect:</b><.>Produces 120 Dollar per second.
+				desc:Put your worker into hot factories to make more money <//><b>Effect:</b><.>Produces 120 Dollars per second.
 				on tick:yield 120 Dollars
 				cost:12000 Dollars
 				icon:https://i.imgur.com/PMr3VOG.png
