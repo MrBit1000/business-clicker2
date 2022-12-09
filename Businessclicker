@@ -48,7 +48,7 @@ Buildings
 				desc:A Underpaid Worker working for free at your Venture
 				on tick:yield 0.5 Dollars
 				cost:15 Dollars
-				icon:https://i.imgur.com/DOtihwh.png
+				icon:https://i.imgur.com/zCHNqZx.png
 		*Office
 				name:Office
 				desc:A place for your underpaid workers to work at
