@@ -108,7 +108,7 @@ Upgrades
 				icon:https://i.imgur.com/NCkIQQz.png
 				cost:200 Dollars
 				passive:multiply yield of Dollars by 1.05
-				req:100
+				req:100 Dollars
 				
 		*Expansion
 				name:Expansion
@@ -116,7 +116,7 @@ Upgrades
 				icon:https://i.imgur.com/fEgBbBe.png
 				cost:700 Dollars
 				passive:multiply yield of Dollars by 1.07
-				req:500
+				req:500 Dollars
 				
 		*DigitalMaster
 				name:Digital Mastermind
@@ -124,7 +124,7 @@ Upgrades
 				icon:https://i.imgur.com/7TSJpzx.png
 				cost:20000 Dollars
 				passive:multiply yield of Dollars by 1.10
-				req:(BitcoinServer>=5
+				req:80000 Dollars
 				
 				
 Achievements
