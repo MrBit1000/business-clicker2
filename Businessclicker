@@ -141,3 +141,8 @@ Achievements
 				name:Multimillionaire
 				desc:You've made <b>12,000,000</b> Dollars making you the top 1% in your country.
 				req:12000000 Dollars
+		*clickAchiev1
+				name:clicker noobie
+				desc:You've clicked this Dollar <b>1000</b> times
+				req:1000 DollarButton clicks
+				icon:https://i.imgur.com/DZAlwUX.png
