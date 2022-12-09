@@ -55,3 +55,8 @@ Buildings
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
 				icon:Images[1,1]
+Achievements
+		*moneyAchiev1
+				name:Time to buy chocky milk!
+				desc:Have <b>1</b> Dollar.
+				req:1 Dollars
