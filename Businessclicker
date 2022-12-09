@@ -107,7 +107,7 @@ Upgrades
 				name:Expansion
 				desc:Make your Office twice as big <//><b>Effect:</b><.>Money production +7%
 				icon:https://i.imgur.com/fEgBbBe.png
-				cost:700
+				cost:700 Dollars
 				passive:multiply yield of Dollars by 1.07
 				req:500
 				
