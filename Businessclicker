@@ -66,6 +66,7 @@ Achievements
 				name:Yay Pocket Money
 				desc:Make <b>100</b> Dollars.
 				req:100 Dollars
+				icon:https://i.imgur.com/bfkfDNX.png
 				
 		*moneyAchiev3
 				name:Time to get serious!
