@@ -53,7 +53,6 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (have clover) $boost=4
 			if (chance(25%))
 				//get at least 7, or between 1 and 3 minutes of our Dollars production
 				$amount=max(7,random(Dollars:ps*60*1,Dollars:ps*60*3))*$boost
