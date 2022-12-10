@@ -18,7 +18,7 @@ CSS
 	#game
 	{
 		background:cornflowerblue;
-		font-family:"Times New Roman",Times,serif;
+		font-family:"Montserrat Font",Sans,serif;
 		color:black;
 	}
 	#game.filtersOn .thing.cantAfford.notOwned
