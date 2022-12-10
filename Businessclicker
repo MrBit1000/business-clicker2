@@ -211,7 +211,7 @@ Upgrades
 				name:Iron Fingers
 				desc:More Money Per Click.<//><b>Effect:</b><.>+45 Dollars/click
 				icon:https://i.imgur.com/VoMzh5U.png
-				cost:20000
+				cost:20000 Dollars
 				passive:increase Dollars yield of DollarButton by 45
 				req:10000
 				
