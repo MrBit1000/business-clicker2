@@ -58,7 +58,6 @@ Buttons
  			yield (($count) * 10000) Dollars
  			lose (($count) * 100) Crypto
 			end
-			end
  
 Resources
 		*Dollars
