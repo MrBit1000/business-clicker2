@@ -207,7 +207,7 @@ Upgrades
 				passive:multiply yield of Dollars by 2
 				req:100000000 Dollars
 				
-		*Iron fingers
+		*Ironfingers
 				name:Iron Fingers
 				desc:More Money Per Click.<//><b>Effect:</b><.>+45 Dollars/click
 				icon:https://i.imgur.com/VoMzh5U.png
@@ -286,3 +286,10 @@ Achievements
 		*moneyAchiev8
 				name:BILLIONAIRE
 				desc:You made <b>1,000,000,000</b> and now are a billionaire but is it over?
+				req:1000000000 Dollars
+				
+		*moneyAchiev9
+				name:TRILLIONAIRE
+				desc:You made <b>1,000,000,000,000</b> You are now the richest person in History
+				req:1000000000000 Dollars
+				desc:
