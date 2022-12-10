@@ -68,6 +68,7 @@ Buildings
 				on tick:yield 5 Dollars
 				cost:190 Dollars
 				icon:https://i.imgur.com/ffCWkxh.png
+				req:100 Dollars
  
 		*Advertisement
 				name:Advertisement
@@ -75,6 +76,7 @@ Buildings
 				on tick:yield 20 Dollars
 				cost:1100 Dollars
 				icon:https://i.imgur.com/gyCameG.png
+				req:700 Dollars
 				
 		*Campaign
 				name:Campaign
@@ -82,6 +84,7 @@ Buildings
 				on tick:yield 50 Dollars
 				cost:5600 Dollars
 				icon:https://i.imgur.com/TwtJDKA.png
+				req:3000 Dollars
 				
 		*Factory
 				name:Factory
@@ -89,6 +92,7 @@ Buildings
 				on tick:yield 120 Dollars
 				cost:12000 Dollars
 				icon:https://i.imgur.com/PMr3VOG.png
+				req:6000 Dollars
 				
 		*BitcoinServer
 				name:BitcoinServer
@@ -96,6 +100,7 @@ Buildings
 				on tick:yield 1000 Dollars
 				cost:50000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
+				req:10000 Dollars
 				
 		*Bitcoin
 				name:Bitcoin Currency
@@ -103,6 +108,7 @@ Buildings
 				on tick:yield 0.01 Crypto
 				cost:1200000 Dollars
 				icon:https://i.imgur.com/FYimQVq.png
+				req:700000 Dollars
 				
 		*Countries
 				name:Country Expansion
@@ -110,6 +116,7 @@ Buildings
 				on tick:yield 2000 Dollars
 				cost:3400000 Dollars
 				icon:https://i.imgur.com/13gRV4m.png
+				req:2000000 Dollars
 				
 		*CryptoCasino
 				name:Crypto Casino
