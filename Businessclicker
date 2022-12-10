@@ -2,7 +2,7 @@ Let's make a game!
 		name:Business Clicker
 		desc:A recreation of the World we live in and how we treat others. This game will be updated reguarly with updates so don't worry about that, all you have to worry about is squessing your own brain and making the most amount of money.
 		by:MrBit
-		Version:1.02
+		Version:2
 Settings
 		background:https://i.imgur.com/JDQiV3i.png
 		Building cost increase:115%
@@ -138,9 +138,17 @@ Buildings
 				name:Nuclear Power Plant
 				desc:Destroy the earth by melting Nuclear Power <//><b>Effect:</b><.>Produces 500,000 Dollars per second.
 				on tick:yield 500000 Dollars
-				cost:1500000000 Dollars
+				cost:3500000000 Dollars
 				icon:https://i.imgur.com/8mUjQ03.png
 				req:1000000000 Dollars
+				
+		*World
+				name:World
+				desc:Buy the entire Earth and sell it. <//><b>Effect:</b><.>Produces 10,500,000 Dollars per second.
+				on tick:yield 10500000 Dollars
+				cost:130000000000 Dollars
+				icon:https://i.imgur.com/13gRV4m.png
+				req:10000000000 Dollars
 				
 				
 Upgrades
@@ -254,6 +262,13 @@ Upgrades
 				cost:19000000 Dollars
 				passive:multiply yield of Dollars by 1.10
 				req:10000000 Dollars
+				
+		*CompoundExpansion
+				name:Compound Expansion
+				desc:Boosts your money Production by buying a bigger island. <//><b>Effect:</b><.>Money production +5%
+				icon:https://i.imgur.com/9yYLgO3.png
+				cost:700000000 Dollars
+				passive:multiply yield of Dollars by 1.05
 				
 				
 				
