@@ -120,8 +120,8 @@ Buildings
 				
 		*CryptoCasino
 				name:Crypto Casino
-				desc:Make Casinos which run on your crypto block chain. <//><b>Effect:</b><.>Produces 5600 Dollars per second.
-				on tick:yield 5600 Dollars
+				desc:Make Casinos which run on your crypto block chain. <//><b>Effect:</b><.>Produces 10600 Dollars per second.
+				on tick:yield 10600 Dollars
 				cost:10000 Crypto
 				icon:https://i.imgur.com/O4lhqtm.png
 				req:10000000 Dollars
