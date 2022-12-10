@@ -52,12 +52,10 @@ Buttons
 	*Sell
 		name:Sell Crypto
 		desc:Sell your Crypto for Dollars
-		 on click
-		 	if(Crypto>=1000)
-			lose 1000 Crypto
-			yield 100000 Dollars
-			end
-			end
+		 if(Crypto >= 100)
+  			$count = floor((Crypto) / Crypto)
+ 			yield (($count) * 10000) Dollars
+ 			lose (($count) * 100) Crypto
  
 Resources
 		*Dollars
