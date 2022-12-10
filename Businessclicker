@@ -65,7 +65,7 @@ Buttons
 		on click:
 		  if (Dollars>=1000000)
 		  	$count = floor((Dollars) / Dollars)
- 			yield (($count) * 1) Crypto
+ 			yield (($count) * 1000) Crypto
  			lose (($count) * 1000000) Dollars
 			end
 			end
