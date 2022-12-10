@@ -168,6 +168,14 @@ Upgrades
 				passive:multiply yield of Crypto by 10
 				req:10000000 Dollars
 				
+		*CampaignUpg
+				name:I hear you
+				desc:Boosts the production of Campaigns <//><b>Effect:</b><.>Money production +3%
+				icon:https://i.imgur.com/NeqdccJ.png
+				cost:12000 Dollars
+				passive:multiply yield of Dollars by 1.03
+				req:6000 Dollars
+				
 				
 				
 Achievements
