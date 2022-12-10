@@ -57,6 +57,7 @@ Buttons
   			$count = floor((Crypto) / Crypto)
  			yield (($count) * 100000) Dollars
  			lose (($count) * 1000) Crypto
+			end
  
 Resources
 		*Dollars
