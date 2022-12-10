@@ -247,6 +247,14 @@ Upgrades
 				passive:multiply yield of Crypto by 2
 				req:2000 Crypto
 				
+		*Casinorigged
+				name:Casino's are rigged!
+				desc:Boosts your money production <//><b>Effect:</b><.>Money production +10%
+				icon:https://i.imgur.com/sLoo2Go.png
+				cost:19000000 Dollars
+				passive:multiply yield of Dollars by 1.10
+				req:10000000 Dollars
+				
 				
 				
 Achievements
