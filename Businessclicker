@@ -197,3 +197,8 @@ Achievements
 				name:Bitcoin Farm
 				desc:You've made a bitcoin farm
 				req:4000000 Dollars
+				
+		*CryptoAchiev1
+				name:Crypto Punk
+				desc:You made <b>1</b> Bitcoin
+				req:1 Crypto
