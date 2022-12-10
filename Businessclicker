@@ -134,6 +134,14 @@ Buildings
 				icon:https://i.imgur.com/oYwWo6G.png
 				req:100000000 Dollars
 				
+		*NuclearPower
+				name:Nuclear Power Plant
+				desc:Destroy the earth by melting Nuclear Power <//><b>Effect:</b><.>Produces 500,000 Dollars per second.
+				on tick:yield 500000 Dollars
+				cost:1500000000 Dollars
+				icon:https://i.imgur.com/8mUjQ03.png
+				req:1000000000 Dollars
+				
 				
 Upgrades
 
