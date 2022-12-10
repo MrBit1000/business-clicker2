@@ -145,9 +145,17 @@ Upgrades
 				name:Troublesome Mouse
 				desc:More Money Per Click.<//><b>Effect:</b><.>+25 Dollars/click
 				icon:https://i.imgur.com/O5hfFsl.png
-				cost:2000
+				cost:2000 Dollars
 				passive:increase Dollars yield of DollarButton by 25
 				req:1000 Dollars:earned
+				
+		*Cryptonaire
+				name:Cryptonaire
+				desc:Times your Crypto Production by 10 <//><b>Effect:</b><.>Crypto production x10
+				icon:https://i.imgur.com/FYimQVq.png
+				cost:100000000 Dollars
+				passive:multiply yield of Crypto by 10
+				req:(Bitcoin>=5 or 10000000 Dollars
 				
 				
 				
@@ -206,3 +214,8 @@ Achievements
 				name:Crypto Punk
 				desc:You made <b>1</b> Bitcoin
 				req:1 Crypto
+				
+		*CryptoAchiev2
+				name:Crypto Noob
+				desc:Make <b>50</b> Bitcoin
+				req:50 Crypto
