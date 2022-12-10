@@ -43,6 +43,12 @@ Resources
 				class:noBackground
 				show earned
 				
+		*Crypto
+				name:Crypto
+				desc:A virual Currency bought with Dollars
+				class:noBackground
+				hidden when 0
+				
 Buildings
 		*Worker
 				name:Worker
@@ -85,6 +91,11 @@ Buildings
 				cost:50000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
 				
+		*Crypto
+				name:Crypto
+				desc:Make your own crypto to sell to your viewers <//><b>Effect:</b><.>Produces 1500 Dollars per second.
+				on tick:yield 
+				
 				
 Upgrades
 
@@ -125,6 +136,15 @@ Upgrades
 				cost:20000 Dollars
 				passive:multiply yield of Dollars by 1.10
 				req:80000 Dollars
+				
+		*TroublesomeMouse
+				name:Troublesome Mouse
+				desc:More Money Per Click.<//><b>Effect:</b><.>+25 Dollars/click
+				icon:https://i.imgur.com/O5hfFsl.png
+				cost:2000
+				passive:increase Dollars yield of DollarButton by 25
+				req:1000 Dollars:earned
+				
 				
 				
 Achievements
