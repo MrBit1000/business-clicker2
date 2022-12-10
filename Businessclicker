@@ -176,6 +176,14 @@ Upgrades
 				passive:multiply yield of Dollars by 1.03
 				req:6000 Dollars
 				
+		*SuperClick
+				name:SuperClick
+				desc:More Money Per Click.<//><b>Effect:</b><.>+13 Dollars/click
+				icon:https://i.imgur.com/Zokftfr.png
+				cost:10000 Dollars
+				passive:increase Dollars yield of DollarButton by 13
+				req:5000 Dollars:earned
+				
 				
 				
 Achievements
