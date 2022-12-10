@@ -42,12 +42,14 @@ Resources
 				desc:A Amazing Currency
 				class:noBackground
 				show earned
+				icon:https://i.imgur.com/Ypp4nhR.png
 				
 		*Crypto
 				name:Crypto
 				desc:A virual Currency bought with Dollars
 				class:noBackground
 				hidden when 0
+				icon:https://i.imgur.com/FYimQVq.png
 				
 Buildings
 		*Worker
