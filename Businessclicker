@@ -52,7 +52,7 @@ Buttons
 	*Sell
 		name:Sell Crypto
 		desc:Sell your Crypto for Dollars
-[Cryptoscost] Crypto to increase Dollars
+[Cryptocost] Crypto to increase Dollars
 		on click:
 			if (Crypto>=Cryptocost)
 				lose (Cryptocost) Crypto
