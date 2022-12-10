@@ -24,6 +24,15 @@ CSS
 	}
 	filter:blur(4px);
 	}
+	
+Shinies
+	*luckyDollar
+		name:Lucky Dollar
+		on click:yield (random(100,1000)) Crypto
+		movement:anywhere fade bounce  moveRandom
+		frequency:120
+		duration:10
+		icon:https://i.imgur.com/xShewyC.png
 
  
 Buttons
