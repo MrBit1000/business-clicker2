@@ -91,8 +91,8 @@ Buildings
 				cost:50000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
 				
-		*Crypto
-				name:Crypto
+		*CryptoCurrency
+				name:Crypto Currency
 				desc:Make your own crypto to sell to your viewers <//><b>Effect:</b><.>Produces 1500 Dollars per second.
 				on tick:yield 
 				
