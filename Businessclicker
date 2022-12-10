@@ -266,3 +266,7 @@ Achievements
 				name:Crypto Boss
 				desc:Make <b>150</b> Bitcoin
 				req:120 Crypto
+				
+		*moneyAchiev8
+				name:BILLIONAIRE
+				desc:You made <b>1,000,000,000</b> and now are a billionaire but is it over?
