@@ -48,6 +48,23 @@ Buttons
 		class:bigButton hasFlares
 		icon:https://i.imgur.com/sLoo2Go.png
 		no text
+		
+	*Sell
+		name:Sell Crypto
+		desc:Sell your Crypto for Dollars
+[Cryptoscost] Crypto to increase Dollars
+		on click:
+			if (Crypto>=Cryptocost)
+				lose (Cryptocost) Crypto
+				Cryptocost is
+				
+Cryptocost*1.1
+				yield 1 Dollars
+				
+			end
+		end
+		icon class:shadowed
+		
  
 Resources
 		*Dollars
