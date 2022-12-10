@@ -52,10 +52,12 @@ Buttons
 	*Sell
 		name:Sell Crypto
 		desc:Sell your Crypto for Dollars
-		on click
-			cost:1000 Crypto
+		 on click
+		 	if(Crypto>=1000)
+			lose 1000 Crypto
 			yield 100000 Dollars
-		
+			end
+			end
  
 Resources
 		*Dollars
