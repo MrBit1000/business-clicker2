@@ -269,6 +269,15 @@ Upgrades
 				icon:https://i.imgur.com/9yYLgO3.png
 				cost:700000000 Dollars
 				passive:multiply yield of Dollars by 1.05
+				req:100000000 Dollars
+				
+		*DigitallyOverpowered
+				name:Digitally Overpowered
+				desc:Make the most complex crypto Farm in the World.  <//><b>Effect:</b><.>Crypto production +5%
+				icon:https://i.imgur.com/BE7a127.png
+				cost:20000 Crypto
+				passive:multiply yield of Crypto by 1.05
+				req:10000 Crypto
 				
 				
 				
@@ -352,3 +361,8 @@ Achievements
 				name:Crypto Legend
 				desc:You made <b>10,000</b> Bitcoin
 				req:10000 Crypto
+				
+		*CryptoAchiev5
+				name:Crypto Physcho
+				desc:You made <b>50,000</b> Bitcoins
+				req:50000 Crypto
