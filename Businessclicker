@@ -199,6 +199,14 @@ Upgrades
 				passive:increase Dollars yield of DollarButton by 13
 				req:5000 Dollars:earned
 				
+		*WorldExpansion
+				name:World Expansion
+				desc:Expand to more exotic countries and sell more of your product <//><b>Effect:</b><.>Money production 2x
+				icon:https://i.imgur.com/13gRV4m.png
+				cost:500000000 Dollars
+				passive:multiply yield of Dollars by 2
+				req:100000000 Dollars
+				
 				
 				
 Achievements
