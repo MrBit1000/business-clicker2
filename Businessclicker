@@ -100,6 +100,13 @@ Buildings
 				cost:1200000 Dollars
 				icon:https://i.imgur.com/FYimQVq.png
 				
+		*Countries
+				name:Country Expansion
+				desc:Make people from all around the world love you by selling them your product. <//><b>Effect:</b><.>Produces 2000 Dollars per second.
+				on tick:yield 2000 Dollars
+				cost:3400000 Dollars
+				icon:https://i.imgur.com/13gRV4m.png
+				
 				
 Upgrades
 
