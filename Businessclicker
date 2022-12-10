@@ -111,6 +111,14 @@ Buildings
 				cost:3400000 Dollars
 				icon:https://i.imgur.com/13gRV4m.png
 				
+		*CryptoCasino
+				name:Crypto Casino
+				desc:Make Casinos which run on your crypto block chain. <//><b>Effect:</b><.>Produces 5600 Dollars per second.
+				on tick:yield 5600 Dollars
+				cost:10000 Crypto
+				icon:https://i.imgur.com/O4lhqtm.png
+				req:10000000 Dollars
+				
 				
 Upgrades
 
