@@ -292,4 +292,8 @@ Achievements
 				name:TRILLIONAIRE
 				desc:You made <b>1,000,000,000,000</b> You are now the richest person in History
 				req:1000000000000 Dollars
-				desc:
+				
+		*CryptoAchiev4
+				name:Crypto Legend
+				desc:You made <b>10,000</b> Bitcoin
+				req:10000 Crypto
