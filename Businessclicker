@@ -155,7 +155,7 @@ Upgrades
 				icon:https://i.imgur.com/FYimQVq.png
 				cost:100000000 Dollars
 				passive:multiply yield of Crypto by 10
-				req:(Bitcoin>=5 or 10000000 Dollars)
+				req:10000000 Dollars
 				
 				
 				
