@@ -279,6 +279,14 @@ Upgrades
 				passive:multiply yield of Crypto by 1.05
 				req:10000 Crypto
 				
+		*Rapidfinger
+				name:Rapid Finger
+				desc:More Money per click.<//><b>Effect:</b><.>+190 Dollars/click
+				icon:https://i.imgur.com/ax84pSM.png
+				cost:50000
+				passive:increase Dollars yield of DollarButton by 190
+				req:30000 Dollars
+				
 				
 				
 Achievements
