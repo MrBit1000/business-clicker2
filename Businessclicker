@@ -27,7 +27,6 @@ CSS
 	
 Shinies
 	*luckyDollar
-		name:Lucky Dollar
 		on click:yield (random(100,1000)) Crypto
 		movement:grow anywhere randomAngle fade
 		frequency:120
