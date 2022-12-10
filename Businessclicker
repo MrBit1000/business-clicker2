@@ -295,6 +295,13 @@ Upgrades
 				passive:increase Dollars yield of DollarButton by 190
 				req:30000 Dollars
 				
+		*NuclearUpg
+				name:Nuclear Outbreak
+				desc:Your Nuclear Power Stations now make <b>Double</b> the waste and double the money <//><b>Effect:</b><.>Money production +5%
+				icon:https://i.imgur.com/P9BqkU6.png
+				cost:300000000 Dollars
+				passive:multiply yield of Dollars by 1.05
+				
 				
 				
 Achievements
