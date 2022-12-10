@@ -155,7 +155,7 @@ Upgrades
 				icon:https://i.imgur.com/FYimQVq.png
 				cost:100000000 Dollars
 				passive:multiply yield of Crypto by 10
-				req:(Bitcoin>=5 or 10000000 Dollars
+				req:(Bitcoin>=5 or 10000000 Dollars)
 				
 				
 				
@@ -219,3 +219,8 @@ Achievements
 				name:Crypto Noob
 				desc:Make <b>50</b> Bitcoin
 				req:50 Crypto
+				
+		*CryptoAchiev3
+				name:Crypto Boss
+				desc:Make <b>150</b> Bitcoin
+				req:120 Crypto
