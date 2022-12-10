@@ -177,7 +177,7 @@ Upgrades
 				
 		*Cryptonaire
 				name:Cryptonaire
-				desc:Times your Crypto Production by 10 <//><b>Effect:</b><.>Crypto production x10
+				desc:Times your Crypto Production by 10  
 				icon:https://i.imgur.com/FYimQVq.png
 				cost:100000000 Dollars
 				passive:multiply yield of Crypto by 10
@@ -214,6 +214,22 @@ Upgrades
 				cost:20000 Dollars
 				passive:increase Dollars yield of DollarButton by 45
 				req:10000
+				
+		*CryptoCasinoUpg
+				name:Bump and Dump
+				desc:Scam your buyers at your casinos <//><b>Effect:</b><.>Money production +5%
+				icon:https://i.imgur.com/ffv7B0f.png
+				cost:10000000 Dollars
+				passive:multiply yield of Dollars by 1.05
+				req:10000 Crypto
+				
+		*BetterServers
+				name:Ethernet Power!
+				desc:Boosts your crypto per second <//><b>Effect:</b><.>Crypto production x2
+				icon:https://i.imgur.com/hdLYq7z.png
+				cost:5000 Crypto
+				passive:multiply yield of Crypto by 2
+				req:2000 Crypto
 				
 				
 				
