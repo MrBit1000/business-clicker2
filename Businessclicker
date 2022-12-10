@@ -9,6 +9,10 @@ Settings
 		Building cost refund:75%
 		spritesheet:Images, 48 by 48, https://i.imgur.com/GSwZpMx.png
 		no bulk particles
+		
+Layout
+	use default
+	
 CSS
 	#game
 	{
