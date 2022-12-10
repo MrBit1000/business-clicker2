@@ -316,6 +316,14 @@ Upgrades
 				passive:multiply yield of Dollars by 1.05
 				req:100000000 Dollars
 				
+		*TaxEnvasion
+				name:Tax Evasion
+				desc:Trick the goverment to not pay <b>tax</b> <//><b>Effect:</b><.>Money production +30%
+				cost:10000000000 Dollars
+				passive:multiply yield of Dollars by 1.30
+				req:5000000000 Dollars
+				icon:https://i.imgur.com/pGi8CfC.png
+				
 				
 				
 Achievements
