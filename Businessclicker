@@ -128,8 +128,8 @@ Buildings
 				
 		*Compound
 				name:Compound
-				desc:Buy a island with a compound to focus more on your product. <//><b>Effect:</b><.>Produces $50,000 Dollars per second.
-				on tick:yield 50000 Dollars
+				desc:Buy a island with a compound to focus more on your product. <//><b>Effect:</b><.>Produces 89,000 Dollars per second.
+				on tick:yield 89000 Dollars
 				cost:1000000000 Dollars
 				icon:https://i.imgur.com/oYwWo6G.png
 				req:100000000 Dollars
