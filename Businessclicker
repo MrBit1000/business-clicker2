@@ -104,7 +104,7 @@ Buildings
 				
 		*Bitcoin
 				name:Bitcoin Currency
-				desc:Make your own crypto to sell to your viewers <//><b>Effect:</b><.>Produces 1500 Dollars per second.
+				desc:Make your own crypto to sell to your viewers <//><b>Effect:</b><.>Produces 0.01 Crypto per second.
 				on tick:yield 0.01 Crypto
 				cost:1200000 Dollars
 				icon:https://i.imgur.com/FYimQVq.png
