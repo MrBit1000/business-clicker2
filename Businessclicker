@@ -301,6 +301,7 @@ Upgrades
 				icon:https://i.imgur.com/P9BqkU6.png
 				cost:300000000 Dollars
 				passive:multiply yield of Dollars by 1.05
+				req:100000000 Dollars
 				
 				
 				
