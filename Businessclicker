@@ -283,7 +283,7 @@ Upgrades
 				name:Rapid Finger
 				desc:More Money per click.<//><b>Effect:</b><.>+190 Dollars/click
 				icon:https://i.imgur.com/qSoZBaD.png
-				cost:50000
+				cost:50000 Dollars
 				passive:increase Dollars yield of DollarButton by 190
 				req:30000 Dollars
 				
