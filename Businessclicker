@@ -207,6 +207,14 @@ Upgrades
 				passive:multiply yield of Dollars by 2
 				req:100000000 Dollars
 				
+		*Iron fingers
+				name:Iron Fingers
+				desc:More Money Per Click.<//><b>Effect:</b><.>+45 Dollars/click
+				icon:https://i.imgur.com/VoMzh5U.png
+				cost:20000
+				passive:increase Dollars yield of DollarButton by 45
+				req:10000
+				
 				
 				
 Achievements
