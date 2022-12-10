@@ -50,13 +50,13 @@ Buttons
 		no text
 		
 	*Sell
-		name:Buy Crypto
-		desc:Buy Crypto for Dollars
+		name:Sell Crypto
+		desc:Sell Crypto for Dollars
 		on click:
-		 if(Dollars >= 100000)
-  			$count = floor((Crypto) / Dollars)
- 			yield (($count) * 1000) Crypto
- 			lose (($count) * 100000) Dollars
+		 if(Crypto >= 1000)
+  			$count = floor((Crypto) / Crypto)
+ 			yield (($count) * 100000) Dollars
+ 			lose (($count) * 1000) Crypto
 			end
  
 Resources
