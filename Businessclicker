@@ -60,15 +60,6 @@ Buttons
 			end
 			end
 			
-	*Buy
-		name:Buy Crypto
-		on click:
-		  if (Dollars>=100000)
-		  	$count = floor((Dollars) / Dollars)
- 			yield (($count) * 100) Crypto
- 			lose (($count) * 100000) Dollars
-			end
-			end
  
 Resources
 		*Dollars
