@@ -60,6 +60,17 @@ Buttons
 			end
 			end
 			
+	*SellGold
+		name:Sell Gold
+		desc:Sell Gold for Dollars <b>ONLY</b> 10,000 Gold
+		on click:
+		  if (Gold>=10000)
+		  	$count = floor((Gold) / Gold)
+			yield (($count) * 1000000000) Dollars
+			lose (($count) * 10000) Gold
+			end
+			end
+			
  
 Resources
 		*Dollars
@@ -71,10 +82,17 @@ Resources
 				
 		*Crypto
 				name:Crypto
-				desc:A virual Currency bought with Dollars
 				class:noBackground
 				hidden when 0
 				icon:https://i.imgur.com/FYimQVq.png
+				
+		*Gold
+				name:Gold
+				desc:A Valuable subtance from the earths core
+				class:noBackground
+				hidden when 0
+				icon:https://i.imgur.com/vCD9cHL.png
+				
 				
 Buildings
 		*Worker
@@ -170,6 +188,14 @@ Buildings
 				cost:130000000000 Dollars
 				icon:https://i.imgur.com/13gRV4m.png
 				req:10000000000 Dollars
+				
+		*Gold
+				name:Gold mines
+				desc:Build Gold mines to make Gold <//><b>Effect:</b><.>Produces 1 Gold per second.
+				on tick:yield 1 Gold
+				cost:500000000000 Dollars
+				icon:https://i.imgur.com/kkEgbcu.png
+				req:100000000000 Dollars
 				
 				
 Upgrades
