@@ -197,6 +197,13 @@ Buildings
 				icon:https://i.imgur.com/kkEgbcu.png
 				req:100000000000 Dollars
 				
+		*DiamondMine
+				name:Diamond Mine
+				desc:Building Diamond Mines to control the price <//><b>Effect:</b><.>Produces 14,500,000 Dollars per second.
+				on tick:yield 14500000 Dollars
+				cost:700000000000 Dollars
+				icon:https://i.imgur.com/qomk7G1.png
+				
 		*Amazon
 				name:Amazon
 				desc:Buy the company of the richest man in the world <//><b>Effect:</b><.>Produces 20,800,000 Dollars per second.
