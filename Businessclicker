@@ -197,6 +197,22 @@ Buildings
 				icon:https://i.imgur.com/kkEgbcu.png
 				req:100000000000 Dollars
 				
+		*Amazon
+				name:Amazon
+				desc:Buy the company of the richest man in the world <//><b>Effect:</b><.>Produces 20,800,000 Dollars per second.
+				on tick:yield 20800000 Dollars
+				cost:1100000000000 Dollars
+				icon:https://i.imgur.com/Mphqms4.png
+				req:500000000000 Dollars
+				
+		*Tesla
+				name:Tesla
+				desc:Buy the Tesla Company from Elon Musk <//><b>Effect:</b><.>Produces 40,800,000 Dollars per second.
+				on tick:yield 40800000 Dollars
+				cost:2400000000000 Dollars
+				icon:https://i.imgur.com/xT5FNxb.png
+				req:1500000000000 Dollars
+				
 				
 Upgrades
 
