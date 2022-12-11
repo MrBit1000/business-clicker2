@@ -64,10 +64,10 @@ Buttons
 		name:Sell Gold
 		desc:Sell Gold for Dollars <b>ONLY</b> 10,000 Gold
 		on click:
-		  if (Gold>=10000)
+		  if (Gold>=1000)
 		  	$count = floor((Gold) / Gold)
-			yield (($count) * 10000000000) Dollars
-			lose (($count) * 10000) Gold
+			yield (($count) * 1000000000) Dollars
+			lose (($count) * 1000) Gold
 			end
 			end
 			
