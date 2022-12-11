@@ -507,3 +507,4 @@ Achievements
 				name:Jeff Bezos!
 				desc:You became the owner of Amazon
 				req:(Amazon>=1)
+				icon:https://i.imgur.com/Mphqms4.png
