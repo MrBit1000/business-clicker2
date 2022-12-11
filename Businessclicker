@@ -203,6 +203,7 @@ Buildings
 				on tick:yield 14500000 Dollars
 				cost:700000000000 Dollars
 				icon:https://i.imgur.com/qomk7G1.png
+				req:70000000000 Dollars
 				
 		*Amazon
 				name:Amazon
