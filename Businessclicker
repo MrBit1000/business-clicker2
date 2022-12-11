@@ -502,3 +502,8 @@ Achievements
 				name:Crypto God
 				desc:You made <b>100,000</b>
 				req:100000 Gold
+				
+		*BuildingAchiev2
+				name:Jeff Bezos!
+				desc:You became the owner of Amazon
+				req:(Amazon>=1)
