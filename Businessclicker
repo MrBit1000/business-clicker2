@@ -375,12 +375,11 @@ Upgrades
 				icon:https://i.imgur.com/IZVaoyx.png
 		*GoldUpg2
 				name:Gold to Money
-				desc:Exchange your gold to Money production <//><b>Effect:</b><.>Money production +1%
+				desc:Upgrades your Extractor by x2 <//><b>Effect:</b><.>Extractor production x2
 				cost:1000 Gold
-				passive:multiply yield of Dollars by 1.01
+				passive:multiply yield of GoldUpg1 by 2
 				req:100 Gold
 				icon:https://i.imgur.com/IZVaoyx.png
-				limit:999
 				
 				
 				
