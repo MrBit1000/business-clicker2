@@ -467,3 +467,23 @@ Achievements
 				desc:You <b>Buyed</b> the World
 				req:(World>=1)
 				icon:https://i.imgur.com/13gRV4m.png
+				
+		*GoldAchiev1
+				name:Man of Gold
+				desc:You made  <b>10</b> Gold Bars
+				req:10 Gold
+				
+		*GoldAchiev2
+				name:Gold Extractor
+				desc:You Extracted <b>100</b> Gold Bars
+				req:100 Gold
+				
+		*GoldAchiev3
+				name:Gold King
+				desc:You Extracted <b>1,000</b> Gold Bars
+				req:1000 Gold
+				
+		*CryptoAchiev6
+				name:Crypto God
+				desc:You made <b>100,000</b>
+				req:100000 Gold
