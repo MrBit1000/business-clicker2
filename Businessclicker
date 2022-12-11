@@ -391,7 +391,7 @@ Upgrades
 		*TriggerFinger
 				name:Trigger Finger
 				desc:More money per click.<//><b>Effect:</b><.>+1209 Dollars/click
-				cost250000 Dollars
+				cost:250000 Dollars
 				passive:increase Dollars yield of DollarButton by 1209
 				req:100000 Dollars
 				icon:https://i.imgur.com/Uc5k4AT.png
