@@ -62,7 +62,7 @@ Buttons
 			
 	*SellGold
 		name:Sell Gold
-		desc:Sell Gold for Dollars <b>ONLY</b> 10,000 Gold
+		desc:Sell Gold for Dollars <b>MINIMUM</b> 1,000 Gold
 		on click:
 		  if (Gold>=1000)
 		  	$count = floor((Gold) / Gold)
