@@ -189,7 +189,7 @@ Buildings
 				icon:https://i.imgur.com/13gRV4m.png
 				req:10000000000 Dollars
 				
-		*Gold
+		*GoldCurrency
 				name:Gold mines
 				desc:Build Gold mines to make Gold <//><b>Effect:</b><.>Produces 1 Gold per second.
 				on tick:yield 1 Gold
