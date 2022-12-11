@@ -373,6 +373,14 @@ Upgrades
 				passive:multiply yield of Dollars by 1.10
 				req:1 Gold
 				icon:https://i.imgur.com/IZVaoyx.png
+		*GoldUpg2
+				name:Gold to Money
+				desc:Exchange your gold to Money production <//><b>Effect:</b><.>Money production +1%
+				cost:1000 Gold
+				passive:multiply yield of Dollars by 1.01
+				req:100 Gold
+				icon:https://i.imgur.com/IZVaoyx.png
+				limit:999999
 				
 				
 				
