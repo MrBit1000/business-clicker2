@@ -350,6 +350,14 @@ Upgrades
 				req:5000000000 Dollars
 				icon:https://i.imgur.com/pGi8CfC.png
 				
+		*GoldUpg1
+				name:Extractor
+				desc:Turn your gold into more production of money <//><b>Effect:</b><.>Money production +10%
+				cost:10 Gold
+				passive:multiply yield of Dollars by 1.10
+				req:1 Gold
+				icon:https://i.imgur.com/IZVaoyx.png
+				
 				
 				
 Achievements
