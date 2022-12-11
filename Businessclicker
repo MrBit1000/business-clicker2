@@ -411,3 +411,9 @@ Achievements
 				name:Crypto Physcho
 				desc:You made <b>50,000</b> Bitcoins
 				req:50000 Crypto
+				
+		*BuildingAchiev1
+				name:The World Owner
+				desc:You <b>Buyed</b> the World
+				req:if (World>=1)
+				icon:https://i.imgur.com/13gRV4m.png
