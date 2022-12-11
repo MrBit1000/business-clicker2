@@ -508,3 +508,9 @@ Achievements
 				desc:You became the owner of Amazon
 				req:(Amazon>=1)
 				icon:https://i.imgur.com/Mphqms4.png
+				
+		*BuildingAchiev3
+				name:Elon Tusk
+				desc:You Bought Tesla
+				req:(Tesla>=1)
+				icon:https://i.imgur.com/xT5FNxb.png
