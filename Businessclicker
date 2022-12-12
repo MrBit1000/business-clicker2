@@ -404,6 +404,30 @@ Upgrades
 				req:100000 Dollars
 				icon:https://i.imgur.com/Uc5k4AT.png
 				
+		*AllbusinessUpg1
+				name:Power Nade
+				desc:Brainwash the population to buy your product <//><b>Effect:</b><.>Money production x14
+				cost:40000000000000 Dollars
+				passive:multiply yield of Dollars by 14
+				req:(Tesla>=3)
+				icon:https://i.imgur.com/7TZqFi8.png
+				
+		*TeslaUpg
+				name:World Genius
+				desc:Manipulate Tesla's stock to rise causing you to make more money <//><b>Effect:</b><.>Money production +4%
+				cost:10000000000000 Dollars
+				passive:multiply yield of Dollars by 1.04
+				req:(Tesla>=1)
+				icon:https://i.imgur.com/xT5FNxb.png
+				
+		*AmazonUpg
+				name:The new Jeff Bezos
+				desc:Manipulate Amazon's stock to rise causing you to make more money <//><b>Effect:</b><.>Money production +5%
+				cost:5000000000000 Dollars
+				passive:multiply yield of Dollars by 1.05
+				req:(Amazon>=1)
+				icon:https://i.imgur.com/Mphqms4.png
+				
 				
 				
 Achievements
