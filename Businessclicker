@@ -224,7 +224,7 @@ Buildings
 		*Universe
 				name:Universe
 				desc:Buy the universe to exploit the universe itself <//><b>Effect:</b><.>Produces 140,800,000 Dollars per second.
-				on tick:yield 140800000 Dollars
+				on tick:yield 540800000 Dollars
 				cost:190000000000000 Dollars
 				icon:https://i.imgur.com/imh1dnz.png
 				req:10000000000000 Dollars
