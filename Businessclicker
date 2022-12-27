@@ -455,6 +455,15 @@ Upgrades
 				req:(CryptoCasino>=20)
 				icon:https://i.imgur.com/ngEfMkP.png
 				
+		*GoldSellout
+				name:Gold Sell out
+				desc:Buy all the Gold on earth and sell it for more Gold <//><b>Effect:</b><.>Gold production x10 <//><b>Backfire:</b><.>Crypto production -40%
+				cost:1100000000000 Dollars
+				passive:multiply yield of Gold by 10
+				passive:multiply yield of Crypto by -40
+				req:(GoldCurrency>=10)
+				icon:https://i.imgur.com/eRpKxYP.png
+				
 				
 				
 Achievements
