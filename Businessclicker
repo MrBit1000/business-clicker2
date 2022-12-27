@@ -428,6 +428,24 @@ Upgrades
 				req:(Amazon>=1)
 				icon:https://i.imgur.com/Mphqms4.png
 				
+		*AmazonUpg2
+				name:The Delivery King
+				desc:Make Amazon more efficent making more money <//><b>Effect:</b><.>Money production +5%
+				cost:500000000000 Dollars
+				passive:multiply yield of Dollars by 1.05
+				passive:multiply yield of Gold by 2
+				req:(Amazon>=5)
+				icon:https://i.imgur.com/BcrTdA5.png
+				
+		*UniverseUpg
+				name:God Tier Human
+				desc:Make Planets worshipping your company to make profit <//><b>Effect:</b><.>Money production x2
+				cost:600000000000000 Dollars
+				passive:multiply yield of Dollars by 2
+				passive:multiply yield of Gold by 1.50
+				req:(Universe>=1)
+				icon:https://i.imgur.com/2jTlHdq.png
+				
 				
 				
 Achievements
