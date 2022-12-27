@@ -137,6 +137,7 @@ Buildings
 				name:BitcoinServer
 				desc:Mine a new Source of money <//><b>Effect:</b><.>Produces 1000 Dollars per second.
 				on tick:yield 1000 Dollars
+				on click:yield (0.01*Dollars:ps) BitcoinServer for 1%
 				cost:50000 Dollars
 				icon:https://i.imgur.com/dSv4HlK.png
 				req:10000 Dollars
