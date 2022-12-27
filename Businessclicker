@@ -645,7 +645,7 @@ Upgrades
 				name:Golden Tappers
 				desc:Clicking gains <b>+1% of your MpS
 				cost:50000 Dollars
-				passive:increase Dollars yield of DollarButton by (0.01*Dollars:ps)
+				passive:increase Dollars yield of DollarButton by (0.01*DollarButton:ps)
 				req:1000 Dollars
 				icon:https://i.imgur.com/edCYQCc.png
 				
@@ -653,7 +653,7 @@ Upgrades
 				name:True Tappers
 				desc:Clicking gains <b>+1% of your MpS
 				cost:5000000 Dollars
-				passive:increase Dollars yield of DollarButton by (0.01*Dollars:ps)
+				passive:increase Dollars yield of DollarButton by (0.01*DollarButton:ps)
 				req:1000000 Dollars
 				icon:https://i.imgur.com/s3LYVaB.png
 				
@@ -661,7 +661,7 @@ Upgrades
 				name:True Millionaire
 				desc:Clicking gains <b>+1% of your MpS
 				cost:465000000 Dollars
-				passive:increase Dollars yield of DollarButton by (0.01*Dollars:ps)
+				passive:increase Dollars yield of DollarButton by (0.01*DollarButton:ps)
 				req:100000000 Dollars
 				icon:https://i.imgur.com/RUXVxT8.png
 				
