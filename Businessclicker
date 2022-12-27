@@ -464,6 +464,14 @@ Upgrades
 				req:(GoldCurrency>=10)
 				icon:https://i.imgur.com/eRpKxYP.png
 				
+		*ClickingMps
+				name:Golden Tappers
+				desc:Clicking gains <b>+1% of your MpS
+				cost:50000 Dollars
+				passive:increase Dollars yield of DollarButton by (0.01*Worker:ps)
+				req:1000 Dollars
+				icon:https://i.imgur.com/edCYQCc.png
+				
 				
 				
 Achievements
