@@ -216,7 +216,7 @@ Buildings
 		*Tesla
 				name:Tesla
 				desc:Buy the Tesla Company from Elon Musk <//><b>Effect:</b><.>Produces 40,800,000 Dollars per second.
-				on tick:yield 40800000 Dollars
+				on tick:yield 540800000 Dollars
 				cost:2400000000000 Dollars
 				icon:https://i.imgur.com/xT5FNxb.png
 				req:1500000000000 Dollars
@@ -224,7 +224,7 @@ Buildings
 		*Universe
 				name:Universe
 				desc:Buy the universe to exploit the universe itself <//><b>Effect:</b><.>Produces 540,800,000 Dollars per second.
-				on tick:yield 540800000 Dollars
+				on tick:yield 1540800000 Dollars
 				cost:190000000000000 Dollars
 				icon:https://i.imgur.com/imh1dnz.png
 				req:10000000000000 Dollars
