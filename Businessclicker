@@ -402,7 +402,7 @@ Buildings
 				on tick:yield 43890800000 Dollars
 				on tick:yield 1 Worker
 				cost:1190000000000000 Dollars
-				req:(Universe=>3)
+				req:(Universe>=3)
 				icon:https://i.imgur.com/FDkRa3s.png
 				
 				
