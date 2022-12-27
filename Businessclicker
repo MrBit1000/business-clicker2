@@ -472,6 +472,14 @@ Upgrades
 				req:1000 Dollars
 				icon:https://i.imgur.com/edCYQCc.png
 				
+		*ClickingMps2
+				name:True Tappers
+				desc:Clicking gains <b>+1% of your MpS
+				cost:5000000 Dollars
+				passive:increase Dollars yield of DollarButton by (0.01*Office:ps)
+				req:1000000 Dollars
+				icon:https://i.imgur.com/s3LYVaB.png
+				
 				
 				
 Achievements
