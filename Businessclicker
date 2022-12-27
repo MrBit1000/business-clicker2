@@ -634,7 +634,7 @@ Upgrades
 				
 		*GoldSellout
 				name:Gold Sell out
-				desc:Buy all the Gold on earth and sell it for more Gold <//><b>Effect:</b><.>Gold production x10 <//><b>Backfire:</b><.>Crypto production -40%
+				desc:Buy all the Gold on earth and sell it for more Gold <//><b>Effect:</b><.>Gold production x10 <//><b>Backfire:</b><.>Crypto production -100%
 				cost:1100000000000 Dollars
 				passive:multiply yield of Gold by 10
 				passive:multiply yield of Crypto by -40
@@ -664,6 +664,15 @@ Upgrades
 				passive:increase Dollars yield of DollarButton by (0.01*DollarButton:ps)
 				req:100000000 Dollars
 				icon:https://i.imgur.com/RUXVxT8.png
+				
+		*CryptoBack
+				name:Crypto Scam!
+				desc:Bring back your failed Crypto Currency from the grave and make it more powerfull then ever <//><b>Effect:</b><.>Crypto production x100 <.>Money Production <b>+3%</b>
+				cost:10000000000000 Dollars
+				passive:multiply yield of Dollars by 1.03
+				passive:multiply yield of Crypto by 2
+				req:(GoldSellout>=1)
+				icon:https://i.imgur.com/jvnE1Ig.png
 				
 				
 				
