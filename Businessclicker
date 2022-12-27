@@ -390,11 +390,20 @@ Buildings
 				
 		*Universe
 				name:Universe
-				desc:Buy the universe to exploit the universe itself <//><b>Effect:</b><.>Produces 540,800,000 Dollars per second.
+				desc:Buy the universe to exploit the universe itself <//><b>Effect:</b><.>Produces 1,540,800,000 Dollars per second.
 				on tick:yield 1540800000 Dollars
 				cost:190000000000000 Dollars
 				icon:https://i.imgur.com/imh1dnz.png
 				req:10000000000000 Dollars
+				
+		*BrainWash
+				name:Brain Chips
+				desc:Destroy you relation to humans as your implant chips into their brains to give you money <//><b>Effect:</b><.>Produces 43,890,800,000 Dollars per second. </b><.>Produces 1 Worker per second. <//><b>Backfire:</b><.><b>RUINS Money Production by 20%</b>
+				on tick:yield 43890800000 Dollars
+				on tick:yield 1 Worker
+				cost:1190000000000000 Dollars
+				req:(Universe=>3)
+				icon:https://i.imgur.com/FDkRa3s.png
 				
 				
 Upgrades
