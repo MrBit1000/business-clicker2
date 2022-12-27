@@ -446,6 +446,15 @@ Upgrades
 				req:(Universe>=1)
 				icon:https://i.imgur.com/2jTlHdq.png
 				
+		*BitcoinSellout
+				name:Bitcoin Sell out
+				desc:Buy all the bitcoin on the earth and sell it for More Bitcoin <//><b>Effect:</b><.>Crypto production x10
+				cost:100000000000 Dollars
+				passive:multiply yield of Crypto by 10
+				passive:multiply yield of Gold by 0.69
+				req:(CryptoCasino>=20)
+				icon:https://i.imgur.com/ngEfMkP.png
+				
 				
 				
 Achievements
