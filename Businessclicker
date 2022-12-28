@@ -12,7 +12,56 @@ Settings
 		no bulk particles
 		
 Layout
-	use default
+	*euroButtonBox
+    contains:tag:euroButton
+  *main
+       contains:res, buttons
+	   contains:skinSwitcherBox
+  *res
+       contains:Resources
+       class:fullWidth
+       ps:hide
+	   
+  *buttons
+	   names:hide
+       contains:Buttons
+       contains:euroButtonBox
+  *store
+       contains:buildings, upgrades, log
+  *buildings
+       contains:BulkDisplay, Buildings
+       header:Buildings
+       tooltip origin:left
+ 
+  *upgrades
+       contains:availableUpgrades, ownedUpgrades
+ 
+  *ownedUpgrades
+    contains:tag:ownedUpgrade
+    header:Owned Upgrades
+    costs:hide
+    names:hide  
+ 
+ 
+  *availableUpgrades
+	contains:tag:avaUpgrade
+	header:Available Upgrades
+	costs:hide
+	names:hide
+ 
+  *log
+	contains:Log
+	class:bottom
+ 
+	*special
+	contains:tag:specialUpgrade
+	footer:Special Upgrades
+	costs:hide
+	names:hide
+ 
+  *skinSwitcherBox
+ contains:tag:skinSwitchButton
+ names:hide
 	
 CSS
 	#game
