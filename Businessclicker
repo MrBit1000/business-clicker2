@@ -670,8 +670,7 @@ Upgrades
 				desc:Bring back your failed Crypto Currency from the grave and make it more powerfull then ever <//><b>Effect:</b><.>Crypto production x100 <.>Money Production <b>+3%</b>
 				cost:10000000000000 Dollars
 				passive:multiply yield of Dollars by 1.03
-				passive:increase Crypto by 450000
-				passive:increase yield of Crypto by 100
+				passive:increase yield of Crypto by 250
 				req:(GoldSellout>=1)
 				icon:https://i.imgur.com/jvnE1Ig.png
 				
