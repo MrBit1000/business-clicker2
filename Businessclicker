@@ -25,85 +25,11 @@ CSS
 	}
 	filter:blur(4px);
 	}
-	
-.tooltipPoint
-{
-	position:fixed;
-	max-width:10px;
-	max-height:10px;
-}
-
-.stretchInV,.stretchIn
-{
-	animation:stretchInV 0s;
-}
-
-#tooltip .thing-icon 
-{ 
-	float:left;
-	margin-left:-3px; 
-	margin-top:-3px;
-	box-shadow:0px 0px 5px 2px rgba(80, 80, 80, 0.5);
-	background:rgba(80,80,80,0.5);
-	position:relative;
-	box-sizing:border-box;
-}
-#tooltip .desc 
-{
-	padding-top:12px; 
-	padding-right:10px;
-}
-#tooltipContent .title 
-{ 
-	text-shadow:0px 0px 6px rgba(255,255,255,1);
-	text-align:center;
-	top:10px;
-	position:relative;
-}
-#tooltipContent .subtitle
-{
-	text-align:center;
-	top:10px;
-	position:relative;
-}
-#tooltip .costs
-{
-	float:right;
-	text-align:right;
-	min-width:0px;
-	min-height:48px;
-}
-
-#tooltip
-{
-	border:3px ridge rgba(125,125,125,1);
-	background-image:url(https://file.garden/YYjCqvtBp0P7hcN1/wood-texture-natural-black-wooden-background_265182-180.jpg);
-	box-shadow:0px 0px 20px 6px rgba(0, 0, 0, 1), inset 0px 0px 6px 1px rgba(152,152,152,0.75);
-	width:max-content;
-	max-width:400px;
-	min-width:320px;
-}
-
-#toasts
-{
-	position:absolute;
-}
-.popup,.toast
-{
-	border:3px ridge rgba(125,125,125,1);
-	background-image:url(https://file.garden/YYjCqvtBp0P7hcN1/wood-texture-natural-black-wooden-background_265182-180.jpg);
-	box-shadow:0px 0px 20px 6px rgba(0, 0, 0, 1), inset 0px 0px 6px 1px rgba(152,152,152,0.75);	
-}
 
 #game.on 
 {
     background-size: 100% 100%;
     image-rendering: pixelated;
-}
- 
-#box-euroButtonBox
-{
-top:42%;
 }
  
 .buildingICON
@@ -176,14 +102,6 @@ height:64px;
 	box-shadow:0px 0px 10px 2px #f5dfc4;
 }
 
-.upgrade.special:hover
-{
-	background:#fff6ad;
-	transform:scale(1.1,1.1);
-	border:3px outset #e3c949;
-	box-shadow:0px 0px 20px 4px #fff6ad, inset 1px 1px 4px 1px rgba(0,0,0,0.5);
-}
-
 .achiev
 {
 background:#bf8040;
@@ -210,58 +128,6 @@ border:2px solid #d4a06c;
 {
 	background:rgba(212,38,15,0.33);
 	box-shadow:0px 0px 8px 2px rgba(255,0,0,1), inset 0px 0px 5px 1px rgba(255,0,0,0.5);
-}
- 
-.tier1
-{
-	background:#996633;
-    border:3px groove #e39b54;
-    border-top:3px groove #e39b54;
-    border-right:3px groove #e39b54;
-    border-bottom:3px groove #e39b54;
-    border-left:3px groove #e39b54;
-	box-shadow:inset 0px 0px 5px 3px rgba(0,0,0,0.5);
-}
-
-.building.tier1:hover
-{
-	background:#d4a06c;
-}
- 
-.tier2
-{
-	text-shadow:0px 0px 3px white;
-	background:rgba(155,155,155,1);
-    border:3px groove #e8e8e8;
-    border-top:3px groove #e8e8e8;
-    border-right:3px groove #e8e8e8;
-    border-bottom:3px groove #e8e8e8;
-    border-left:3px groove #e8e8e8;
-	box-shadow:inset 0px 0px 5px 3px rgba(0,0,0,0.5);
-}
-.building.tier2:hover
-{
-	background:rgba(200,200,200,1);
-}
- 
-.tier3
-{
-	color: #ffdd00;
-	text-shadow:0px 0px 3px #ffdd00;
-	background:#A88100;
-	box-shadow:inset 0px 0px 5px 3px rgba(0,0,0,0.5);
-    border:3px groove #fcc200;
-    border-top:3px groove #fcc200;
-    border-right:3px groove #fcc200;
-    border-bottom:3px groove #fcc200;
-    border-left:3px groove #fcc200;
-}
-
-.building.tier3:hover
-{
-	background:#d6cc83;
-	color: white;
-	text-shadow:0px 0px 3px white;
 }
  
  
@@ -363,28 +229,6 @@ border:2px solid #d4a06c;
 	border-top:3px ridge #996633;
     box-shadow:0px 0px 4px rgba(0,0,0,0.2),1px 1px 2px rgba(0,0,0,0.5),0px 0px 16px rgba(0,0,0,0.5) inset;
 	height:75%;
-}
- 
-.res
-{
-	font-family: FreeMono, monospace;
-	padding:12px;
-	font-size:18px;
-	text-align:left;
-	margin-top:2px;
-	margin-bottom:2px;
-	top:25%;
-	min-height:48px;
-	min-width:100%;
-	box-shadow:none;
-    border:0px;
-	position:relative;
-	text-shadow: 0px 0px 5px white;
-	
-	background:rgba(0,0,0,0.2);
-	border-top:2px solid rgba(69,69,69,0.5);
-	border-bottom:2px solid rgba(69,69,69,0.5);
-	transition: all 1s;
 }
 
 .blessedRes
