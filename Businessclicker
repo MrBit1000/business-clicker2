@@ -498,7 +498,6 @@ Upgrades
 				name:True Millionaire
 				desc:Clicking gains <b>+1% of your MpS
 				cost:465000000 Dollars
-				passive:increase Dollars yield of tag:euroButton by 1PercentOfDollars
 				req:100000000 Dollars
 				icon:https://i.imgur.com/RUXVxT8.png
 				
