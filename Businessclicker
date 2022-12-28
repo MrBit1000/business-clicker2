@@ -510,6 +510,14 @@ Upgrades
 				req:(GoldSellout>=1)
 				icon:https://i.imgur.com/jvnE1Ig.png
 				
+		*ClickingMps4
+				name:Unstopable Business!
+				desc:Clicking gains <b>+1% of your MpS
+				cost:4650000000 Dollars
+				passive:increase Dollars yield of DollarButton by (0.01*DollarButton:ps)
+				req:1000000000 Dollars
+				icon:https://i.imgur.com/BWab5FZ.png
+				
 				
 				
 Achievements
