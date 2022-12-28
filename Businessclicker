@@ -176,60 +176,12 @@ height:64px;
 	box-shadow:0px 0px 10px 2px #f5dfc4;
 }
 
-// special upgrades
-.special
-{
-	box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.75),inset 1px 1px 5px 1px rgba(0,0,0,0.75);
-    border:3px outset #e6b100;
-    border-top:3px outset #e6b100;
-    border-right:3px outset #e6b100;
-    border-bottom:3px outset #e6b100;
-    border-left:3px outset #e6b100;
-	background:#e3b92d;
-}
-
 .upgrade.special:hover
 {
 	background:#fff6ad;
 	transform:scale(1.1,1.1);
 	border:3px outset #e3c949;
 	box-shadow:0px 0px 20px 4px #fff6ad, inset 1px 1px 4px 1px rgba(0,0,0,0.5);
-}
-
-.upgrade.special.owned
-{
-	box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.75),inset 1px 1px 5px 1px rgba(0,0,0,0.75);
-    border:3px outset #e6b100;
-    border-top:3px outset #e6b100;
-    border-right:3px outset #e6b100;
-    border-bottom:3px outset #e6b100;
-    border-left:3px outset #e6b100;
-	background:#e3b92d;
-}
-
-.upgrade.special.owned:hover
-{
-	background:#fff6ad;
-	transform:scale(1,1);
-	border:3px outset #e3c949;
-	box-shadow:0px 0px 10px 2px #fff1d9, inset 1px 1px 4px 1px rgba(0,0,0,0.5);
-}
-
-.upgrade.special.cantAfford
-{
-	box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5),inset 0px 0px 5px 1px rgba(255,0,0,0.5);
-	border-radius:0px;
-	border:3px outset #872608;
-	background:rgba(212,38,15,0.33);
-	transform:scale(1,1);
-}
-
-.upgrade.special.cantAfford:hover
-{
-	box-shadow:0px 0px 8px 2px rgba(255,0,0,1), inset 0px 0px 5px 1px rgba(255,0,0,0.5);
-	border:3px outset #872608;
-	background:rgba(212,38,15,0.33);
-	border-radius:0px;
 }
 
 .achiev
@@ -375,12 +327,6 @@ border:2px solid #d4a06c;
 	
 }
  
- 
- 
-.wobble2
-{
-    animation:wobble2 0.5s;
-}
 @keyframes wobble2
 {
     0% {transform:translateZ(0) scale(1.05);}
@@ -441,20 +387,6 @@ border:2px solid #d4a06c;
 	transition: all 1s;
 }
 
-.res.thing:hover
-{
-	transition: all 0s;
-	border-top:2px solid rgba(120,120,120,0.5);
-	border-bottom:2px solid rgba(120,120,120,0.5);
-	background:rgba(69,69,69,0.5);
-	box-shadow:inset 3px 0px 5px 3px rgba(120,120,120,0.5);
-}
-
-.thing:hover,.thing.lit
-{
-	background:#d4a06c;
-}
-
 .blessedRes
 {
 	color: #ffdd00;
@@ -469,18 +401,6 @@ border:2px solid #d4a06c;
 	max-width:100%;
 }
  
- 
- 
- 
-
-
-.achiev.owned
-{
-    background:#bf8040;
-	box-shadow:0px 0px 6px #d4a06c;
-}
-
- 
 .building:hover
 {
     background:#d4a06c;
@@ -493,21 +413,6 @@ border:2px solid #d4a06c;
 	position:absolute;
 	height:25%;
 	width:100%;
-}
- 
-#box-special
-{
-  display: inline-block;
-  top:75%;
-  width: 59.98%;
-  height: 25%;
-  padding: 0px;
-  border-top:3px ridge #996633;
-  border-bottom:3px ridge #996633;
-  border-left:3px ridge #996633;
-  background-image:linear-gradient(to top,rgba(1,1,1,0.75), rgba(1,1,1,0), rgba(1,1,1,0)), url("https://imgur.com/bBNrXIT.jpg");
-  box-shadow:0px 0px 4px rgba(0,0,0,0.2),1px 1px 2px rgba(0,0,0,0.5),0px 0px 16px rgba(0,0,0,0.5) inset;
-  overflow-y:scroll;
 }
 
 #box-skinSwitcherBox
