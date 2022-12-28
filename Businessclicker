@@ -57,7 +57,7 @@ Buttons
 		name:Sell Crypto
 		desc:Sell Crypto for Dollars
 		on click:
-		req: 1 Crypto
+		req:1 Crypto
 		 if (Crypto>=1000)
   			$count = floor((Crypto) / Crypto)
  			yield (($count) * 1000000) Dollars
@@ -70,7 +70,7 @@ Buttons
 		desc:Sell Gold for Dollars <b>MINIMUM</b> 1,000 Gold
 		on click:
 		  if (Gold>=1000)
-		  req: 1 Gold
+		  req:1 Gold
 		  	$count = floor((Gold) / Gold)
 			yield (($count) * 1000000000) Dollars
 			lose (($count) * 1000) Gold
