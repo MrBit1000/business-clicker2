@@ -286,6 +286,14 @@ Upgrades
 				passive:multiply yield of Dollars by 1.10
 				req:80000 Dollars
 				
+		*WorkerUpgrade
+				name:Worker Upgrade
+				desc:Earn 1% more your <//><b>Offices</b>
+				icon:https://imgur.com/Q5zSjUi.png
+				cost:10000 Dollars
+				passive:multiply yield of Office by (1 + 0.01*Worker)
+				req:7000 Dollars
+				
 		*TroublesomeMouse
 				name:Troublesome Mouse
 				desc:More Money Per Click.<//><b>Effect:</b><.>+25 Dollars/click
