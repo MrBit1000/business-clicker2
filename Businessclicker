@@ -360,10 +360,10 @@ Upgrades
 				
 		*Casinorigged
 				name:Casino's are rigged!
-				desc:Boosts your money production <//><b>Effect:</b><.>Money production +10%
+				desc:Boosts your money production <//><b>Effect:</b><.>Money production +40%
 				icon:https://i.imgur.com/rK9bdMq.png
 				cost:19000000 Dollars
-				passive:multiply yield of Dollars by 1.10
+				passive:multiply yield of Dollars by 1.40
 				req:10000000 Dollars
 				
 		*CompoundExpansion
